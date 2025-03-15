@@ -1,35 +1,45 @@
-# LA-Crime-Data-EDA
+Los Angeles Crime Scene - Exploratory Data Analysis (EDA)
+Overview
+This project aims to analyze crime data in Los Angeles using Exploratory Data Analysis (EDA) techniques. The goal is to uncover patterns, trends, and insights related to crime types, locations, time trends, and other factors that impact crime rates in the city.
+
+Dataset
+The dataset used in this analysis comes from [insert data source, e.g., LAPD Open Data Portal]. It contains records of reported crimes in Los Angeles, including details such as crime type, location, date, and time of occurrence.
+
+Technologies Used
+Python: Core language for data analysis
+Pandas: Data manipulation and cleaning
+NumPy: Numerical computations
+Matplotlib & Seaborn: Data visualization
+Plotly: Interactive visualizations
+GeoPandas: Geospatial analysis
+Folium: Mapping crime data
+Jupyter Notebook: Interactive data exploration
+Analysis Conducted
+Data Cleaning & Preprocessing
+Descriptive Statistics & Summary
+Crime Trend Analysis (Yearly, Monthly, Hourly)
+Crime Type Distribution
+Geospatial Analysis (Crime Hotspots, Mapping)
+Correlation Between Crime and External Factors
 
 
-## Go here if the jupyter-notebook does not load: http://nbviewer.jupyter.org/gist/haebichan/db745b8a46d1e0def9ec74d3960c88cc
+Installation & Usage
+Clone the repository:
+bash
+Copy
+git clone https://github.com/yourusername/la-crime-eda.git
+cd la-crime-eda
+Install dependencies:
+bash
+Copy
+pip install -r requirements.txt
+Run the Jupyter Notebook:
+bash
+Copy
+jupyter notebook
+Contributions
+Contributions are welcome! Feel free to submit pull requests or open issues.
 
-
-Crime Data EDA for Saturday's Data Science EDA meetup
-
-For this Saturday (June 9, 2018), Data Science Fellows at Galvanize, San Francisco will be exmaining at LA's Crime Data for exploratory data analysis (https://data.lacity.org/A-Safe-City/Crime-Data-from-2010-to-Present/y8tr-7khq). The mission is to formulate with real and strategic policy recommendations that would best benefit the LA Police, the local government, and other principal stakeholders. 
-
-
-
-
-
-The schedule of the aforesaid day is as follows:
-
-
-Tentative Schecdule
-10:00 - 10:45 - Settle in, lecture on the dataset/ techniques used on the dataset
-
-10:45 - 12:00 - Individual review/wrangling of the dataset
-
-12:00 - 1:00  - Group review/wrangling of the dataset (merge insights that you have gathered individually)
-
-1:00 - 2:00   - Lunch
-
-2:00 - 3:30   - Group review part 2 (finalizing jupyer-notebook file. Cleaning it up to make it ready for presentation and  upload. Please be aware that much time might be spent here)
-
-3:30 - 4:00   - Group presentation on the final analysis - presenting group's jupyter-notebook file
-
-4:00 - 4:30   - Collectively brainstorm main insights, key policy recommendations, etc.
-
-4:30 -        - GitHub posting, blog prep, etc. 
-
+License
+MIT
 
